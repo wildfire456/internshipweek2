@@ -1,0 +1,8 @@
+g++ -c c2t1.cpp
+g++ c2t1.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system
+./sfml-app
+
+
+g++ -c c2t2.cpp
+g++ c2t2.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system
+./sfml-app
